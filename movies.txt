@@ -1,0 +1,12 @@
+#creating movies table
+ 
+create table movies(leadactor varchar(20),actress varchar(20),yearofrelease number(4),directorname varchar(20));
+
+#inserting values to the movies table
+
+insert into movies values('yash','shreenidhi',2022,'Prashanth neel');
+insert into movies values('vicky','alia',2018,'meghana gulzar');
+insert into movies values('vicky','yami',2019,'Aditya');
+
+#to display the values in the movies table
+select * from movies;
